@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="BootstrapUnidad1.css">
+    <title>BootstrapUnidad2</title>
+</head>
+<body>
+    <div class="container col-xl-4 col-lg-6 col-md-12 bg-light mt-3 mb-0 px-4">
+        <div class="row">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6 px-3 py-2 mb-0">
+                <label for="Nombre">Nombre de pila</label>
+                <input type="text" class="form-control" id="Nombre" placeholder="">
+              </div><!-- fin nombre -->
+
+              <div class="form-group col-md-6 px-3 py-2 mb-0">
+                <label for="Apellido">Apellido</label>
+                <input type="text" class="form-control" id="Apellido" placeholder="">
+              </div><!-- fin apellido -->
+
+              <div class="form-group col-md-12 px-3 py-2 mb-0">
+                <label for="NombreDeUsuario">Nombre de usuario</label>
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">@</span>
+                    <input type="text" class="form-control" id="NombreDeUsuario" placeholder="Nombre de usuario">
+                  </div>
+              </div><!-- fin nombre de usuario -->
+
+              <div class="form-group col-md-12 px-3 py-2 mb-0">
+                <label for="Email">Correo electrónico <span class="text-muted">(opcional)</span></label>
+                <input type="email" class="form-control" id="Email" placeholder="you@example.com">
+              </div><!-- fin email -->
+
+              <div class="form-group col-md-12 px-3 py-2 mb-0">
+                <label for="HablaA">Habla a</label>
+                <input type="text" class="form-control" id="HablaA" placeholder="1234 Main St">
+              </div><!-- fin habla -->
+              
+              <div class="form-group col-md-12 px-3 py-2 mb-0">
+                <label for="Direccion2">Dirección 2 <span class="text-muted">(opcional)</span></label>
+                <input type="text" class="form-control" id="Direccion2" placeholder="Apartamento o suite">
+              </div><!-- fin direccion2 -->
+  
+              <div class="form-group col-xl-5 px-3 py-2 mb-0">
+                <label for="Pais">País</label>
+                <select id="Pais" class="custom-select">
+                  <option selected>Escoger...</option>
+                  <option>...</option>
+                </select>
+              </div><!-- fin pais -->
+
+              <div class="form-group col-xl-4 px-3 py-2 mb-0">
+                <label for="Estado">Estado</label>
+                <select id="Estado" class="custom-select">
+                  <option selected>Escoger...</option>
+                  <option>...</option>
+                </select>
+              </div><!-- fin estado -->
+              <div class="form-group col-xl-3 px-3 py-2 mb-0">
+                <label for="CodigoPostal">Código Postal</label>
+                <input type="text" class="form-control" id="CodigoPostal">
+              </div><!-- fin codigo postal -->
+              </div><!-- fin form-row-->
+              <hr class="mt-2 mb-4"/>
+              <div class="form-row">
+              <div 
+              <div class="form-check mx-3">
+                <input class="form-check-input" type="checkbox" value="" id="checkDireccionEnvio1">
+                <label class="form-check-label" for="checkDireccionEnvio1">
+                  La dirección de envío es la misma que mi dirección de facturación
+                </label>
+              </div><!-- fin check1 -->
+             
+              <div class="form-check mx-3">
+                <input class="form-check-input" type="checkbox" value="" id="checkDireccionEnvio2">
+                <label class="form-check-label" for="checkDireccionEnvio2">
+                  Guarde esta información para la próxima vez
+                </label>
+              </div><!-- fin check2 -->
+
+              </div><!-- fin form-row-->
+              <hr class="mt-3 mb-1"/>
+
+            </div><!-- fin form-row-->
+
+          </form><!-- fin form -->
+        </div><!-- fin row -->
+    </div><!-- fin container -->
+</body>
+</html>
